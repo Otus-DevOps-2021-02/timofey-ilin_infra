@@ -1,0 +1,8 @@
+cloud_id="test1"
+folder_id="test2"
+zone="ru-central1-a"
+service_account_key_file="test3"
+image_id="test4"
+subnet_id="test5"
+public_key_path="test6"
+private_key="test7"
