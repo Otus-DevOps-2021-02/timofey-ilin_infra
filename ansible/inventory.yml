@@ -1,9 +1,8 @@
-app:
-  hosts:
-    appserver:
-      ansible_host: 178.154.203.31
-
-db:
-  hosts:
-    dbserver:
-      ansible_host: 178.154.203.42
+all:
+  children:
+   app:
+      hosts:
+         178.154.201.59
+   db:
+      hosts:
+         178.154.206.108
